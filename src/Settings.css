@@ -1,0 +1,58 @@
+.settings-container {
+  background-color: #000000;
+  color: #F1E696;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+.notification-settings, .emergency-contacts, .disaster-preparedness {
+  margin-top: 20px;
+}
+
+.notification-settings input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.disaster-preparedness ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.disaster-preparedness ul li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #0000FF;
+}
+
+.home-button-container {
+  text-align: center;
+  top: 10px;
+  right: 10px;
+  position: fixed;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #966C3B; /* Logo color shade */
+  color: #f1e696; /* Font color */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.home-button:hover {
+  background-color: #725127;
+  transform: translateY(-5px);
+}

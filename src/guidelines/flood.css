@@ -1,0 +1,46 @@
+body {
+  background-color: #000;
+}
+
+.header {
+  text-align: center;
+  color:#916B30 ;
+}
+
+.doesanddonts {
+  display: inline-block;
+  text-align: center;
+  color:#f1e696;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .inside-button, .outside-button {
+    background-size: cover;
+    border: none;
+    margin: 0 10px;
+    padding: 100px 100px;
+    cursor: pointer;
+  }
+
+  .button-text {
+    background-color: #916B30; /* Set background color for the text */
+    padding: 10px; /* Adjust padding around the text */
+    font-size: 20px; /* Adjust font size */
+    font-weight: bold; /* Make text bold */
+  }
+  
+  
+  .inside-button {
+    background-image: url('../images/insidehouse.jpg'); /* Replace with the path to your inside house image */
+  }
+  
+  .outside-button {
+    background-image: url('../images/outsidehouse.jpg'); /* Replace with the path to your outside house image */
+  }
+

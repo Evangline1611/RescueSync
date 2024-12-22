@@ -1,0 +1,92 @@
+body {
+    background-color: #000;
+    margin: 0;
+  }
+  
+  header {
+    color: #966c3b;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  section > div {
+    margin-bottom: 20px;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    list-style-type: disc; 
+  }
+  
+  li {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  .doesanddonts{
+    color: #916B30;
+    text-align: left;
+  }
+
+  .dos-heading{
+    color: green;
+    text-align: left;
+  }
+
+  .donts-heading{
+    color: red;
+    text-align: left;
+  }
+  
+  .dos-list, .donts-list {
+    background-color: #303030;
+    display: inline-block;
+    flex-direction: column;
+    color: #f1e696;
+    font-weight: bolder;
+    text-align: left;
+    border-radius: 5px;
+}
+
+video {
+  width: 500px; /* Set a specific width */
+  height: 500px; /* Set a specific height */
+  display: block;
+  margin: 20px auto;
+}
+
+/* Style the controls */
+video::-webkit-media-controls {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  padding: 10px; /* Add some padding around the controls */
+}
+
+video::-webkit-media-controls-play-button {
+  color: white; /* Set the color of the play button to white */
+}
+
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display {
+  color: white; /* Set the color of the time display to white */
+}
+
+video::-webkit-media-controls-mute-button,
+video::-webkit-media-controls-volume-slider {
+  display: none; /* Hide the mute button and volume slider */
+}

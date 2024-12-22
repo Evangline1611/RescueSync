@@ -1,0 +1,64 @@
+.profile-container {
+  background-color: #303030;
+  color: #f1e696; /* Font color using one of the logo colors */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto; /* Auto margin to center the container horizontally */
+  max-width: 800px; /* Optional: Set a maximum width for the container */
+  width: 100%; /* Optional: Set width to 100% */
+  text-align: center;
+}
+
+.profile-container h1 {
+  color: #F1E696; 
+}
+
+.user-info {
+  margin-bottom: 20px;
+}
+
+.person-info {
+  margin-bottom: 20px;
+}
+
+.person-info h2 {
+  color: #916B30; /* Font color using one of the logo colors */
+}
+
+strong {
+  color: #966C3B; /* Font color using one of the logo colors */
+}
+
+p {
+  margin: 5px 0;
+}
+
+/* Styling for the header */
+h1 {
+  color: #966C3B; /* Font color using one of the logo colors */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-button-container {
+  text-align: center;
+  top: 10px;
+  right: 10px;
+  position: fixed;
+}
+
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #966C3B; /* Logo color shade */
+  color: #f1e696; /* Font color */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.home-button:hover {
+  background-color: #725127;
+  transform: translateY(-5px);
+}
